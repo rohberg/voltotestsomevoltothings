@@ -9,5 +9,8 @@
     "volto",
     "plone",
     "react"
-  ]
+  ],
+  "peerDependencies": {
+    "@plone/volto": ">=12.0.0"
+  }
 }
