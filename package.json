@@ -10,6 +10,12 @@
     "plone",
     "react"
   ],
+  "addons": [
+    "@eeacms/volto-object-widget"
+  ],
+  "dependencies": {
+    "@eeacms/volto-object-widget": "^2.0.0"
+  },
   "peerDependencies": {
     "@plone/volto": ">=12.0.0"
   }
