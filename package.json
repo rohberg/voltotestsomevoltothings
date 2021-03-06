@@ -1,5 +1,6 @@
 {
   "name": "rohberg.voltotestsomevoltothings",
+  "_comment1": "remove dependency @eeacms/volto-blocks-form here when add-on is updated to Volto 12.2.0",
   "version": "0.1.0",
   "description": "rohberg.voltotestsomevoltothings: Volto add-on",
   "main": "src/index.js",
@@ -11,10 +12,12 @@
     "react"
   ],
   "addons": [
-    "@eeacms/volto-object-widget"
+    "@eeacms/volto-object-widget",
+    "@eeacms/volto-blocks-form"
   ],
   "dependencies": {
-    "@eeacms/volto-object-widget": "^2.0.0"
+    "@eeacms/volto-object-widget": "^2.0.0",
+    "@eeacms/volto-blocks-form": "^2.0.0"
   },
   "peerDependencies": {
     "@plone/volto": ">=12.0.0"
